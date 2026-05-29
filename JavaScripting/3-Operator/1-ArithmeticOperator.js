@@ -36,18 +36,14 @@ console.log(100-undefined)//NaN
 console.log("Hello"*"Hi")//NaN
 console.log("100"*3)//300
 console.log(200*false)//0
-console.log("===========================================")
+
 //Division
 console.log(34/2)   //17  
 console.log(34/false) //infi
 console.log(null/9)//0
 console.log(7676/undefined)//NaN
+
 //modulus
 console.log(6%2)       
 console.log(0%2)       
-console.log(4%0) //NaN      
-      
-
-
-
- 
+console.log(4%0) //NaN
