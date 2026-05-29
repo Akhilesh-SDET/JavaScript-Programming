@@ -7,3 +7,4 @@
   //Logical or (||)
   console.log(5>3 || 7<5);//true
   console.log(5>3 || 7>5);
+  
