@@ -48,3 +48,12 @@ console.log(+a) // 5
 //unary minus operator
 let b = "5";
 console.log(-b) // -5
+
+//==============================important concept oo if condition without {} bracket 
+// because if consider only on statement without {} bracket
+let xyz=0;
+
+if(xyz)
+    xyz++;
+xyz++;
+console.log(xyz);
