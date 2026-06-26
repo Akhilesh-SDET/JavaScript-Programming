@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj={
+            username:"Vikash",
+            gender : "male",
+            greet : function (){
+                console.log('Hello  ${this.username}')
+                console.log(this)//current object
+            }
+        }
+        obj.greet();
+
+        let obj1={
+            username:"Vikash",
+            gender : "male",
+            greet :  ()=>{
+                console.log(`Hello ${this.username}`);//undefined
+                console.log(this);//window
+            }
+        }
+    </script>
+</body>
+</html>

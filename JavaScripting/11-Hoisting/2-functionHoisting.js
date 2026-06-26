@@ -1,5 +1,7 @@
-//function Hoisting
-gree()
+//hoisting is not possible in function Expression
+
+//Hoisting in function Decleration
+greet();
 function greet(){
     console.log("Hello");
 }
